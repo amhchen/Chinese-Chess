@@ -1,3 +1,5 @@
+//java file for the start screen
+
 package gameapps.chinesechess;
 
 import android.content.Intent;
