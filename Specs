@@ -1,0 +1,13 @@
+We're using these naming conventions:
+-MAKE VARIABLE AND FUNCTION NAMES SELF-DESCRIPTIVE
+-use the underscore naming convention (func_number_one isntead of FuncNumberOne)
+-pls pls pls comment your code
+
+Pieces:
+Soldier (equiv to pawn in western chess)
+Chariot (ie rook)
+Horse (ie knight)
+Elephant (ie bishop
+Advisor (the guys who stay in the box w/ general)
+General (ie king)
+Cannon (the guys who jump over pieces to capture)
