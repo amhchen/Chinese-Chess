@@ -21,10 +21,31 @@ public class Game {
             black.addElement(q);
         }
         for (int i = 0; i < 2; i++) {
-            Chariot a = new Chariot(6*i+1,2,true);
-            Chariot b = new Chariot(6*i+1,7,false);
+            Cannon a = new Cannon(6*i+1,2,true);
+            Cannon b = new Cannon(6*i+1,7,false);
+
+            Horse c = new Horse(6*i+1,0,true);
+            Horse d = new Horse(6*i+1,9,false);
+
+            Chariot e = new Chariot(8*i,0,true);
+            Chariot f= new Chariot(8*i,9,false);
+
+            Elephant g = new Elephant(4*i+2,0,true);
+            Elephant h = new Elephant(4*i+2,9,false);
+
+            Advisor j = new Advisor(3*i+2,0,true);
+            Advisor k = new Advisor(3*i+2,9,false);
+            
             red.addElement(a);
+            red.addElement(c);
+            red.addElement(e);
+            red.addElement(g);
+            red.addElement(j);
             black.addElement(b);
+            black.addElement(d);
+            black.addElement(f);
+            black.addElement(h);
+            black.addElement(k);
         }
     }
 }
