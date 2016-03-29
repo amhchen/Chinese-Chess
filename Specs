@@ -4,6 +4,9 @@ We're using these naming conventions:
 -pls pls pls comment your code
 -if possible start java files with a capital letter
 
+True = red
+False = black
+
 Pieces:
 Soldier (equiv to pawn in western chess)
 Chariot (ie rook)
