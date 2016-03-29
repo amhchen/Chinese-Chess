@@ -1,3 +1,4 @@
+//The actual main class (main.java is for the start screen)
 package gameapps.chinesechess;
 
 import android.os.Bundle;
