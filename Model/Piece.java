@@ -1,6 +1,7 @@
 //do your superclass code here
 
 public abstract class Piece {
-  //constructor
-  //other stuff
+  int x;
+  int y;
+  bool colour; //red = true
 }
