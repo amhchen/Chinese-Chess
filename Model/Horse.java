@@ -8,7 +8,7 @@ public class Horse extends Piece {
   }
   @override
   bool valid_move(int x_dest, int y_dest) {
-    if (0 <= x_dest <= 9 && 0 <= y_dest <= 8) {
+    if (0 <= x_dest <= 8 && 0 <= y_dest <= 9) {
      if (is_occupied(x_dest,y_dest) != colour) {
        int x_length = x - x_dest;
        int y_length = y = y_dest;
