@@ -12,8 +12,10 @@ public class Game {
     Vector red; //vector of Pieces
     Vector black; // vector of Pieces
     boolean gg;
-    public Game() {
+    Controller c;
+    public Game(Controller control) {
         gg = false;
+        c = control;
         for (int i = 0; i < 5; i++) {
             Soldier p = new Soldier(2*i,3,true);
             Soldier q = new Soldier(2*i,6,false);
