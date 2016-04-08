@@ -16,6 +16,13 @@ Advisor (the guys who stay in the box w/ general)
 General (ie king)
 Cannon (the guys who jump over pieces to capture)
 
+broad outline for a piece ctor:
+public Piece(int x_init, int y_init, String col_set) { //NOTE: COLOUR IS NOW A STRING
+  x = x_init;
+  y = y_init;
+  colour = col_set;
+}
+
 
 File Descriptions:
 main.java - java file for the start screen
