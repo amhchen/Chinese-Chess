@@ -8,21 +8,23 @@ public class Horse extends Piece {
   }
   @override
   bool valid_move(int x_dest, int y_dest) {
+    if (0 <= x_dest <= 9 && 0 <= y_dest <= 8) {
      if (is_occupied(x_dest,y_dest) != colour) {
        int x_length = x - x_dest;
        int y_length = y = y_dest;
        if (abs(x_length) == 1 &&abs(y_length) == 2) {
-         if (is_occupied(x, y + (y_length/2)) != colour) {
+         if (is_occupied(x, y + (y_length/2)) == "free") {
            return true;
          }
+       }
         else if (abs(x_length) == 2 && abs(y_length) == 1) {
-          if (is_occupied(x + (x_length/2), y) != colour) {
+          if (is_occupied(x + (x_length/2), y) == "free") {
             return true;
           }
         }
-     }
-   }
-   return false;
+      }
+    }
+    return false;
   }
    
    @override
