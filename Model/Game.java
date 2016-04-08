@@ -49,18 +49,18 @@ public class Game {
         }
     }
     
-    public bool is_occupied(int x_coord, int y_coord) {
+    public String is_occupied(int x_coord, int y_coord) {
         for (int i = 0; i < red.length(); i++) {
             if (red[i].x == x_coord && red[i].y == y_coord) {
-                return true;
+                return "red";
             }
         }
         for (int i = 0; i < black.length(); i++) {
             if (black[i].x == x_coord && black[i].y == y_coord) {
-                return true;
+                return "black";
             }
         }
-        return false;
+        return "free";
     }
     
 }
