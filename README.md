@@ -29,6 +29,7 @@ Cannon (the guys who jump over pieces to capture)
 
 
 broad outline for a piece ctor:
+
 public Piece(int x_init, int y_init, String col_set, Game current) { //NOTE: COLOUR IS NOW A STRING
 
   x = x_init;
