@@ -41,4 +41,12 @@ public class General extends Piece {
 			return false;
 		}
 	}
+	boolean make_move(int x_dest, int y_dest) {
+        	if (valid_move(x_dest,y_dest)) {
+            		x = x_dest;
+            		y = y_dest;
+            		return true;
+        	}
+        	return false;
+	}
 }
