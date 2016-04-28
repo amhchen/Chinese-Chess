@@ -1,6 +1,7 @@
+
 public class Cannon extends Piece {
 	
-	public Cannon(int x_init, int y_init, bool colour_set) {
+	public Cannon(int x_init, int y_init, String colour_set, Game current) {
 		x = x_init;
 		y = y_init;
 		colour = colour_set;
